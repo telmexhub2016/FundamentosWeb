@@ -1,0 +1,108 @@
+html{
+  font-family:sans-serif;
+  font-size:16px;
+}
+header{
+  background-color: #2C3E50;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: 3px;
+  margin-bottom: 1rem;
+  color:white;
+}
+h1{
+  font-size: 2.4rem;
+}
+body{
+  margin:auto;
+  background-color: #ECF0F1;
+}
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+}
+ul>li{
+  background-color: #3498DB;
+  list-style-type:none;
+  display:inline;
+  margin-left: -5px;
+  margin-bottom:-1rem;
+  padding:.3rem;
+  font-size: 1.2rem;
+  border-right: 3px;
+  border-style: solid;
+  border-color:black;
+  border-top:none;
+  border-bottom:none;
+  border-left:none;
+}
+#articulo{
+  background-color: #2980B9;
+  padding-left:3rem;
+  padding-top:1rem;
+  padding-right:3rem;
+  padding-bottom:1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /*margin-top:1rem;*/
+  margin-bottom: 1rem;
+  flex:1 1 40%;
+}
+img{
+  width:100%;
+}
+#textoarticulo{
+  color: white;
+  line-height: 1.5rem;
+}
+h2{
+  color:white;
+  font-size:2rem;
+}
+.formulario{
+  background-color: #E74C3C;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  flex:1 1 20%;
+}
+.tarjeta{
+  background-color: white;
+  margin-left: 1rem;
+  box-shadow: 0px 4px 7px 0px rgba(50, 50, 50, 0.35);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  flex:1 1 400px;
+}
+.descripcion{
+  margin-left: 1rem;
+}
+h3{
+  margin-left: 1rem;
+}
+footer{
+  background-color: #3498DB;
+  margin-top: 1rem;
+}
+#creditos{
+  font-size: 1rem;
+  column-rule-color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+#ctarjetas{
+  display: flex;
+  flex-flow:row-reverse wrap;
+  margin-right: 1rem;
+}
+#nombre, #email, #telefono{
+  width: 100%;
+}
+#enviar{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
